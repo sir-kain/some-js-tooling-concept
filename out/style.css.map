@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/style.css"],
+  "sourcesContent": ["body {\n  background: #000;\n  font-size: 20px;\n  color: #fff;\n}\n\n#style {\n  color: red;\n}\n"],
+  "mappings": ";AAAA,KACE,gBACA,eACA,WAGF,OACE",
+  "names": []
+}

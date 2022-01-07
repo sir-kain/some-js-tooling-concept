@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild app.jsx --bundle --outfile=out.js"
+    "build": "node app.js"
   },
   "keywords": [],
   "author": "",

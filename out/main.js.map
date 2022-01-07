@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/components/B.js", "../src/components/A.js", "../src/main.js"],
-  "sourcesContent": ["const logB = () => {\n  console.log(\"from B\");\n};\nexport default logB;\n", "import logB from \"./B\";\n\nconst logAandB = () => {\n  console.log(\"from A\");\n  logB();\n};\n\nconst unusedFunction = () => {\n  console.log(\"unused function\");\n};\n\nexport { logAandB, unusedFunction };\n", "import { logAandB, unusedFunction } from \"./components/A\";\n\nlet ok = \"ok\";\nconsole.log(\"from main ==>\", ok1);\nlogAandB();\n// unusedFunction();\n"],
-  "mappings": ";MAAA,GAAM,GAAO,IAAM,CACjB,QAAQ,IAAI,WAEP,EAAQ,ECDf,GAAM,GAAW,IAAM,CACrB,QAAQ,IAAI,UACZ,KCDF,QAAQ,IAAI,gBAAiB,KAC7B",
-  "names": []
-}

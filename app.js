@@ -16,9 +16,11 @@ const { build } = require("esbuild");
 
 // Bundle + treeshaking
 build({
-  entryPoints: ["./src/main.js", "./src/main2.js"],
-  outdir: "out",
+  entryPoints: ["./src/page1.ts", "./src/page2.ts"],
+  outdir: "dist",
   bundle: true,
+  minify: true,
+  sourcemap: true,
   treeShaking: true, // tree shaking
   splitting: true,
   format: "esm",

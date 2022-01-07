@@ -9,4 +9,9 @@ const unusedFunction = () => {
   console.log("unused function");
 };
 
-export { logAandB, unusedFunction };
+const render = (content) => {
+  console.log("from component A");
+  document.querySelector('main').textContent = content
+}
+
+export { logAandB, unusedFunction, render };
